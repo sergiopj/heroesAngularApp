@@ -56,6 +56,69 @@ export class HeroesService {
           img: 'assets/img/wolverine.png',
           aparicion: '1974-11-01',
           casa: 'Marvel'
+        },
+        {
+            nombre: 'Capitán América',
+            bio: 'Vowing to serve his country any way he could, young Steve Rogers took the super soldier serum to become America one-man army. Fighting for the red, white and blue for over 60 years, Captain America is the living, breathing symbol of freedom and liberty.',
+            img: 'assets/img/captain-america.png',
+            aparicion: '1941-11-01',
+            casa: 'Marvel'
+        },
+        {
+            nombre: 'Iron-Man',
+            bio: 'Wounded, captured and forced to build a weapon by his enemies, billionaire industrialist Tony Stark instead created an advanced suit of armor to save his life and escape captivity. Now with a new outlook on life, Tony uses his money and intelligence to make the world a safer, better place as Iron Man.',
+            img: 'assets/img/ironman.png',
+            aparicion: '1963-11-01',
+            casa: 'Marvel'
+        },
+        {
+            nombre: 'The Flash',
+            bio: 'Young Barry Allen’s life stopped the minute his mother was murdered. The true killer never found, its mystery obsessed Barry, driving him to become a forensic scientist. Consumed by his work, he spent his life chained to his desk, solving every case that flew across it. But when a freak lightning bolt hits a nearby shelf in his lab, Barry receives super-speed, becoming the Flash.',
+            img: 'assets/img/flash.png',
+            aparicion: '1940-11-01',
+            casa: 'DC'
+        },
+        {
+            nombre: 'Superman',
+            bio: 'The most recognized superhero in pop culture, Superman has been elevated to mythic folkhero status. Rocketed to Earth from the dying planet Krypton, baby Kal-El was found by a farming couple who named the boy Clark Kent and raised him as their own. Discovering his enormous powers, they instilled in him strong moral values—and inspired him to become a hero.',
+            img: 'assets/img/superman.png',
+            aparicion: '1938-11-01',
+            casa: 'DC'
+        },
+        {
+            nombre: 'Cyclops',
+            bio: 'Cyclops possesses the mutant ability to project a beam of heatless ruby-colored concussive force from his eyes, which act as inter-dimensional apertures between this universe and another. Cyclops body constantly absorbs ambient energy, such as sunlight, from his environment into his body cells that allows him to open the apertures.',
+            img: 'assets/img/cyclops.png',
+            aparicion: '1967-11-01',
+            casa: 'Marvel'
+        },
+        {
+            nombre: 'Shazam',
+            bio: 'Unlike most foster children, Billy Batson couldn’t care less about finding a family. He just wants to turn eighteen and finally become an adult. While the boy’s compassionate and kind, he’s gotten used to protecting himself by staying emotionally distant from everybody. But that changes when he meets an ancient wizard who introduces him to one very powerful word.',
+            img: 'assets/img/shazam.png',
+            aparicion: '1940-11-01',
+            casa: 'DC'
+        },
+        {
+            nombre: 'Green Arrow',
+            bio: 'Spoiled billionaire Oliver Queen came home with an entirely different personality—and a newfound purpose in life. Completely self-absorbed and never caring about anything but himself, Queen was on a leisurely sailing trip when his assistant betrayed him, leaving him for dead on a desolate remote island. Stranded, he survived by, amongst other things, mastering a bow and arrow.',
+            img: 'assets/img/green-arrow.png',
+            aparicion: '1941-11-01',
+            casa: 'DC'
+        },
+        {
+            nombre: 'Mr. Fantastic',
+            bio: 'Mister Fantastic can shift his body (or portions of same) into a super-malleable state, enabling him to stretch, compress, expand, deform, elongate, contract or otherwise reshape his physical form at will. He can stretch his limbs, neck and torso to incredible lengths, though extending himself beyond approximately 1500 feet is a serious physical strain.',
+            img: 'assets/img/mr-fantastic.png',
+            aparicion: '1961-11-01',
+            casa: 'Marvel'
+        },
+        {
+            nombre: 'Robin',
+            bio: 'And just like that, Robin the Boy Wonder made the kid sidekick an icon. Acrobat Dick Grayson was the youngest member of his parents death-defying circus act. But after their cold-blooded murder, Dick vowed revenge. Seeing a genuine piece of himself in the boy, Batman took him in—and gave him a better outlet for his anger.',
+            img: 'assets/img/robin.png',
+            aparicion: '1940-11-01',
+            casa: 'DC'
         }
       ];
 

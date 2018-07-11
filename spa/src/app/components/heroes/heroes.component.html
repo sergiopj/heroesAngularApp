@@ -3,7 +3,7 @@
 
 <div class="card-columns">
   <div class="card" *ngFor=" let heroe of heroes">
-    <img class="card-img-top" src="../../../assets/img/aquaman.png" alt="Card image cap">
+    <img class="card-img-top" src="{{ heroe.img }}" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">{{ heroe.nombre }}</h5>
       <p class="card-text"> {{ heroe.bio }} </p>
