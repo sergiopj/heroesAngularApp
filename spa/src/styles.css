@@ -3,23 +3,17 @@ body {
   padding-bottom: 50px; 
 }
 
-
 .main-container{
     margin-top: 20px;
+    text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.crossover img {
+  max-width: 100%; 
+  height: auto; 
+  align-content: inherit;
+  box-shadow: 2px 2px grey;
+}
 
 /* Animations */
 .animated {

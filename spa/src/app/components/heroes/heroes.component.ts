@@ -29,9 +29,9 @@ export class HeroesComponent implements OnInit {
 always have the same structure */
 
 export interface Heroe {
-  nombre: string;
+  name: string;
   bio: string;
   img: string;
-  aparicion: string;
-  casa: string;
+  appearance: string;
+  house: string;
 }
