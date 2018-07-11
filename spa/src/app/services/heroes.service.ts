@@ -132,6 +132,11 @@ export class HeroesService {
     }
 
 
+    getHeroeById(index: string): Heroe[] {
+        return this.heroes[index];
+    }
+
+
 
 
 

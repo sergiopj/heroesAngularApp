@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { HeroesService } from '../../services/heroes.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styles: []
 })
+
 export class HeroesComponent implements OnInit {
 
   heroes: Heroe[] = [];
@@ -14,13 +16,18 @@ export class HeroesComponent implements OnInit {
   constructor(
     // private declaration, this variable only shows in this component
     private _heroesService: HeroesService,
+    private router: Router
   ) { }
 
   ngOnInit() {
 
     this.heroes = this._heroesService.getHeroes();
-    console.log('Data of heroes: ', this.heroes);
 
+  }
+
+  // to navigate at hero info with index
+  showHero(index: number) {
+    this.router.navigate( ['/hero', index] );
   }
 
 }

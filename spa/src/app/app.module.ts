@@ -14,6 +14,7 @@ import { APP_ROUTING } from './app.routes';
 
 // services
 import { HeroesService } from './services/heroes.service';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HeroesService } from './services/heroes.service';
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    HeroComponent
+    HeroComponent,
+    FooterComponent
 
   ],
   imports: [
